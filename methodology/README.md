@@ -10,7 +10,7 @@ The methodology is operationalized through an internal framework
 (Atlas), which enforces consistency, traceability, and verification
 across investigations.
 
-## Investigative Scope
+## Investigative scope
 Investigations typically focus on:
 - Domains and related infrastructure
 - Hosting and IP overlap
@@ -20,14 +20,14 @@ Investigations typically focus on:
 
 Only passive, open-source techniques are used.
 
-## Investigation Workflow
+## Investigation workflow
 Each investigation follows a repeatable sequence:
 
-1. **Target Definition**
+1. **Target definition**
    - Domain or domain set (cluster)
    - Clear research question or hypothesis
 
-2. **Passive Data Collection**
+2. **Passive data collection**
    - DNS records (A, NS, reverse DNS)
    - WHOIS (local and API-based, where available)
    - HTTP headers and publicly accessible HTML
@@ -35,35 +35,35 @@ Each investigation follows a repeatable sequence:
    - Favicon retrieval and hashing
    - Historical DNS data (when available)
 
-3. **Artifact Preservation**
+3. **Artifact preservation**
    - Raw outputs stored separately from analysis
    - Logs retained to support reproducibility
    - Machine-readable summaries generated per target
 
-4. **Correlation & Pattern Analysis**
+4. **Correlation & Pattern analysis**
    - Reuse of infrastructure elements
    - Repeated SSL certificate attributes
    - Shared tracking identifiers
    - Identical or recurring favicon hashes
    - Overlapping historical IP space
 
-5. **Cluster-Level Synthesis**
+5. **Cluster-Level synthesis**
    - Aggregation of multiple targets
    - Identification of recurring technical fingerprints
    - Separation of signal from coincidence
 
-6. **Analytical Reporting**
+6. **Analytical reporting**
    - Human-readable summaries
    - Explicit differentiation between facts and interpretation
    - Clear articulation of confidence and uncertainty
 
-## Verification Standards
+## Verification standards
 - Findings are supported by multiple independent signals
 - Single indicators are not treated as sufficient proof
 - Technical overlap is evaluated in context (hosting providers, CDNs, reuse patterns)
 - Absence of data is documented explicitly
 
-## Automation Philosophy
+## Automation philosophy
 Automation is used to:
 - Reduce manual repetition
 - Ensure consistency of data collection
@@ -74,7 +74,7 @@ Automation does **not**:
 - Assign intent
 - Replace analyst judgment
 
-## Ethical Principles
+## Ethical principles
 - Passive OSINT only (no intrusion, scanning, or exploitation)
 - No interaction with investigated entities
 - No publication of sensitive operational details
