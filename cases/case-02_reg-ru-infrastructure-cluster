@@ -1,0 +1,69 @@
+# Case 02 — Infrastructure Analysis of a REG.RU Domain Cluster
+
+## Overview
+This case presents an OSINT investigation into a coordinated cluster of domains hosted within the REG.RU infrastructure (AS197695), identified through darknet advertising activity and subsequent infrastructure correlation.
+
+The investigation demonstrates how domain-level artifacts, analytics identifiers, and SSL lifecycle patterns can be used to attribute apparently unrelated websites to a single operator or technical team.
+
+## Context & Relevance
+The cluster emerged from a TOR forum post advertising services related to:
+- forged medical / disability documentation
+- facilitation of illegal cross-border movement
+- potential financial obfuscation via cryptocurrency services
+
+Such activity intersects with broader platform risk areas, including:
+- exploitation of vulnerable populations
+- fraud and document forgery
+- hybrid threat and influence operations
+- misuse of hosting and CDN services for obfuscation
+
+## Research question
+Can infrastructure-level OSINT techniques demonstrate centralized control across domains that present themselves as unrelated businesses?
+
+## Methodology (High-Level)
+The investigation applied a structured, passive OSINT methodology, including:
+- Actor pivoting from darknet identifiers to surface web assets
+- Historical DNS and passive DNS analysis
+- Hosting and ASN attribution
+- SSL certificate lifecycle and issuer comparison
+- Analytics identifier correlation (Yandex.Metrika)
+- Comparative domain fingerprinting
+
+All analysis relied exclusively on open sources and non-intrusive techniques.
+
+## Key findings
+The investigation identified a tightly coordinated infrastructure cluster characterized by:
+- Hosting concentration within a narrow REG.RU IP range
+- Consistent use of Cloudflare for rapid origin obfuscation
+- Synchronized SSL certificate issuance and renewal cycles
+- Reuse of unique analytics identifiers across multiple domains
+- Identical infrastructure management patterns despite divergent site content
+
+These indicators strongly suggest centralized technical control rather than coincidental co-location.
+
+## Cluster composition (Abstracted)
+The cluster included domains presenting as:
+- illicit document services
+- cryptocurrency automation platforms
+- e-commerce and marketing businesses
+- defense-adjacent industrial sites
+
+The diversity of outward-facing functions appears intentional and serves to camouflage shared backend infrastructure.
+
+## Analytical value
+This case illustrates how infrastructure analysis can:
+- expose hidden coordination between domains
+- support attribution without content moderation access
+- inform platform risk, trust & safety, and investigative workflows
+- complement journalistic and legal investigations
+
+## Ethics & Limitations
+- No active interaction with targets
+- No exploitation or intrusive scanning
+- Sensitive operational details redacted
+- Analysis focused on structural patterns, not individual attribution
+
+## Outcome
+The case demonstrates the effectiveness of infrastructure-focused OSINT for uncovering coordinated networks operating under commercial hosting providers and CDNs.
+
+Full technical documentation, datasets, and automation are maintained privately and are available upon request in a professional context.
