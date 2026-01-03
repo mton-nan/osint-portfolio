@@ -1,0 +1,68 @@
+# CoriTool
+
+## Overview
+
+CoriTool is a lightweight OSINT triage utility designed to support early-stage risk assessment and infrastructure-aware analysis.
+
+The tool aggregates signals from open sources to help analysts identify entities that may require deeper manual investigation.
+
+CoriTool is not a decision-making system. It is a prioritization and analyst-support tool.
+
+---
+
+## What CoriTool does
+
+- Collects OSINT signals related to sanctions, investigative reporting, and business context
+- Normalizes heterogeneous inputs into a structured risk snapshot
+- Applies transparent, rule-based scoring for triage purposes
+- Supports analyst-led review rather than automated conclusions
+
+---
+
+## Intended use
+
+CoriTool is designed for use in:
+- OSINT research
+- Trust & Safety and risk operations
+- Pre-investigation screening and prioritization
+- Policy-aware manual review workflows
+
+The tool is typically used before in-depth investigation, not as a substitute for it.
+
+---
+
+## Methodological Positioning
+
+CoriTool operates strictly within a **passive OSINT** paradigm.
+
+- No intrusive scanning
+- No authentication bypass
+- No private or leaked datasets
+- No automated attribution
+
+All outputs are designed to be reviewed and interpreted by a human analyst.
+
+---
+
+## Relationship to Atlas
+
+CoriTool is used as a supporting utility within the Atlas investigation
+framework.
+
+While Atlas defines the overall methodology, documentation standards, and evidence structure, CoriTool assists with early signal detection and triage.
+
+---
+
+## Public Version Notice
+
+This repository contains a **public-facing version** of CoriTool.
+
+API keys, configuration values, and production datasets are not included. The tool logic is provided to demonstrate analytical approach and implementation style.
+
+---
+
+## Disclaimer
+
+CoriTool does not produce legal judgments or definitive risk labels.
+
+All outputs should be treated as OSINT signals requiring contextual analysis and professional review.
