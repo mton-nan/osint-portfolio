@@ -1,16 +1,12 @@
 # Case 01 — Atlas: Structured OSINT Investigation Framework
 
 ## Summary
-Atlas is a structured OSINT investigation framework designed to support
-repeatable, evidence-driven analysis of domains and infrastructure clusters.
-It combines defined methodology with lightweight automation to reduce noise
-and improve analytical consistency.
+Atlas is a structured OSINT investigation framework designed to support repeatable, evidence-driven analysis of domains and infrastructure clusters.
+It combines defined methodology with lightweight automation to reduce noise and improve analytical consistency.
 
 ## Why it's exists
-OSINT investigations often suffer from fragmented data collection,
-unclear evidence chains, and difficulty scaling analysis across multiple domains.
-Atlas was created to address these issues by enforcing structure,
-traceability, and analyst-led interpretation.
+OSINT investigations often suffer from fragmented data collection, unclear evidence chains, and difficulty scaling analysis across multiple domains.
+Atlas was created to address these issues by enforcing structure, traceability, and analyst-led interpretation.
 
 ## What it does
 - Standardizes domain and infrastructure reconnaissance
@@ -24,9 +20,7 @@ traceability, and analyst-led interpretation.
 - Analyst-in-the-loop: automation supports, but never replaces judgment
 
 ## Practical application
-Atlas has been used as the backbone for infrastructure cluster investigations
-and platform risk analysis, enabling correlation of technical fingerprints
-across multiple domains.
+Atlas has been used as the backbone for infrastructure cluster investigations and platform risk analysis, enabling correlation of technical fingerprints across multiple domains.
 
 ## Ethics & Safety
 - No active engagement with targets
