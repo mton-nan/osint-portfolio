@@ -1,0 +1,34 @@
+REG.RU Domain Cluster: Illicit Services Network (Nov 2025)
+
+## Objective
+Investigate a cluster of domains advertised on a darknet forum for offering forged disability certificates and illegal cross-border services targeting Ukrainian citizens during wartime.
+
+## Scope
+- Starting point: Darknet thread (Aug 2025) promoting fake medical exemptions and evasion of military mobilization.
+- Focus: Infrastructure attribution and correlation of seemingly unrelated domains.
+
+## Methodology (Passive OSINT)
+- Actor identification via contact pivoting (ProtonMail → surface web)
+- DNS, historical DNS, and ASN analysis
+- SSL certificate lifecycle and issuer comparison
+- Analytics identifier correlation (Yandex.Metrika)
+- IP range and hosting provider clustering
+
+## Key Findings
+A tightly coordinated cluster was identified within REG.RU infrastructure (AS197695, IP range 31.31.192.0 – 31.31.203.255), exhibiting strong indicators of single-operator control:
+
+- **Illicit activity domains**: Sites offering forged disability documents and wartime draft-evasion services.
+- **Masking/facade domains**: Legitimate-appearing business, industrial, and crypto-trading sites (e.g., compressor manufacturing, SMM services).
+- **Technical overlaps**:
+  - Shared origin IPs behind Cloudflare CDN obfuscation
+  - Reused unique Yandex.Metrika tracking IDs across unrelated sites
+  - Synchronized SSL certificate issuance and renewal patterns (Let’s Encrypt, GlobalSign, ZeroSSL)
+- **Operational pattern**: Diversity in site themes used to camouflage shared backend infrastructure.
+
+## Conclusion
+The investigation successfully attributed multiple disparate domains to a centralized technical entity engaged in fraudulent and potentially hybrid-influence-related activities. Infrastructure fingerprinting proved highly effective in exposing coordination without requiring content-level access.
+
+![REG.RU Domain Cluster Visualization](images/reg-ru-cluster-visualization.png)
+*Interactive cluster map showing shared IPs, analytics IDs, SSL issuers, and domain relationships*
+
+*All analysis conducted using exclusively passive, open-source techniques. Sensitive identifiers redacted. Full redacted report available upon professional request.*
