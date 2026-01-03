@@ -28,7 +28,7 @@ A tightly coordinated cluster was identified within REG.RU infrastructure (AS197
 ## Conclusion
 The investigation successfully attributed multiple disparate domains to a centralized technical entity engaged in fraudulent and potentially hybrid-influence-related activities. Infrastructure fingerprinting proved highly effective in exposing coordination without requiring content-level access.
 
-![REG.RU Domain Cluster Visualization](images/reg-ru-cluster-visualization.png)
+![REG.RU Domain Cluster Visualization](reg-ru-cluster-visualization.png)
 *Interactive cluster map showing shared IPs, analytics IDs, SSL issuers, and domain relationships*
 
 *All analysis conducted using exclusively passive, open-source techniques. Sensitive identifiers redacted. Full redacted report available upon professional request.*
